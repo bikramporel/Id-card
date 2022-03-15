@@ -8,7 +8,7 @@ public class Main {
 
        Scanner sc=new Scanner(System.in);
         System.out.println("Enter Your Name:");
-        name=sc.next();
+        name=sc.nextLine();
         System.out.println("Enter Your age:");
         age=sc.nextInt();
         System.out.println("Enter Your Blood Group:");
