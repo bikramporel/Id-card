@@ -1,0 +1,32 @@
+import java.util.Scanner;
+public class Main {
+
+    public static void main(String[] args) {
+	// write your code here
+       String name,bloodGroup,group,massage;
+       int age;
+
+       Scanner sc=new Scanner(System.in);
+        System.out.println("Enter Your Name:");
+        name=sc.next();
+        System.out.println("Enter Your age:");
+        age=sc.nextInt();
+        System.out.println("Enter Your Blood Group:");
+        bloodGroup=sc.next();
+        System.out.println("--------------------");
+        System.out.println("Name: "+name);
+        System.out.println("Age: "+age);
+        System.out.println("Blood Group: "+bloodGroup);
+        System.out.println("--------------------");
+        if(age>=20){
+            System.out.println("Your Group Is Red");
+        }else if(age>=15){
+            System.out.println("Your Group Is BLUE");
+        }
+        else if(age>=10){
+            System.out.println("Your Group Is YELLOW");
+        }
+        System.out.println("--------------------");
+
+    }
+}
